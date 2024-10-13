@@ -29,11 +29,13 @@ echo "Installing Chrome Remote Desktop"
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
 sudo dpkg --install chrome-remote-desktop_current_amd64.deb
 sudo apt install --assume-yes --fix-broken
+sudo apt-get install python3-pip
+sudo apt-get install python3-tk
 git clone https://github.com/LOUDO56/PyMacroRecord.git
 apt install libayatana-appindicator3-dev libgirepository1.0-dev
 pip install pystray
 pip install pynput
-cp -r /content/PyMacroRecord/src/ /home/user/Desktop/
+
 
 echo "Installing Desktop Environment"
 export DEBIAN_FRONTEND=noninteractive
