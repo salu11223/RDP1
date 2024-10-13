@@ -35,6 +35,7 @@ git clone https://github.com/LOUDO56/PyMacroRecord.git
 apt install libayatana-appindicator3-dev libgirepository1.0-dev
 pip install pystray
 pip install pynput
+cp -r '/teamspace/studios/this_studio/PyMacroRecord/src/' /home/user/Desktop/
 
 
 echo "Installing Desktop Environment"
